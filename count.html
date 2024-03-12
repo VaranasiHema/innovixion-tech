@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <!--Adding style sheet to our webpage of countdown times-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="countdown">
+    <h1>Countdown Timer</h1>
+    <label for="date">Enter Target Date:</label>
+    <input type="datetime-local" id="date">
+    <!--Calling javascript startCountdown funtion for functioning our timer-->
+    <button onclick="startCountdown()">Start Countdown</button>
+    <div id="timer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
